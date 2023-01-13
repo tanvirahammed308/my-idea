@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e5e5e5;
+}
+/* **********header style********** */
+.header {
+  width: 100%;
+  height: 94px;
+  background: #562eff;
+}
+/* *****nav ******** */
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+/* ***********nav left style***********
+************************************ */
+.nav-left {
+  display: flex;
+  gap: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.nav-title {
+  color: white;
+  padding-top: 5px;
+}
+
+/* ****************nav right style*******
+*************************************** */
+.nav-right {
+  display: flex;
+  gap: 30px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.menu,
+a {
+  padding-top: 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.img-1 {
+  width: 40px;
+  height: 50px;
+}
