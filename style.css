@@ -50,3 +50,48 @@ a {
   width: 40px;
   height: 50px;
 }
+/* *****************section 1 style**********
+***************************************** */
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 679px;
+  background: #ffffff;
+  margin-left: 260px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.title {
+  color: #562eff;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.player-img {
+  width: 56px;
+  height: 56px;
+}
+.top-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  grid-row-gap: 50px;
+  margin-bottom: 280px;
+  margin-left: 15px;
+}
+.player {
+  display: flex;
+}
+.player-name {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.line {
+  border: 1px solid #d1d1d1;
+  width: 750px;
+  position: absolute;
+}
